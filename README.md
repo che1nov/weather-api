@@ -39,8 +39,8 @@ For caching, we recommend using Redis. You can use the city code entered by the 
 2. Set up environment variables:
    Create a `.env` file and add your API key and Redis connection string:
    ```env
-   API_KEY=your_visual_crossing_api_key
-   REDIS_URL=your_redis_connection_string
+   VISUAL_CROSSING_API_KEY=....
+   REDIS_ADDR=....
    ```
 
 ### Running the API
